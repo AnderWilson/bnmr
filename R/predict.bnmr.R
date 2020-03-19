@@ -133,7 +133,7 @@ predict.bnmr <- function(object,
    # fit with new data
    x <- newdata
    xs <- (x-min(object$x))/diff(range(object$x))
-   inrange <- which(x>min(object$x) & x<max(object$x))
+   inrange <- which(x>=min(object$x) & x<=max(object$x))
    B <- buildBPbasis(xs[inrange], M=object$specs$M, deriv=deriv)
    f <- (B$B %*% B$A) %*% object$gamma[,-c(1:round(object$specs$nburn/object$specs$nthin))]
    

@@ -1,13 +1,13 @@
 Package: bnmr
 Type: Package
 Title: Bayesian Nonparametric Monotone Regression
-Version: 0.4.0
-Date: 2019-11-24
+Version: 0.4.02
+Date: 2020-3-19
 Author: Ander Wilson
 Maintainer: Ander Wilson <ander.wilson@colostate.edu>
 Description: Bayesian nonparametric monotone regression.
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.17)
 LinkingTo: Rcpp, RcppArmadillo
-RoxygenNote: 7.0.1
+RoxygenNote: 7.0.2
 Encoding: UTF-8
