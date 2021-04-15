@@ -1,6 +1,5 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\Simulation
-^\DataAnalysis
-^\Manuscripts
+^Simulation
+^DataAnalysis
 README.md
