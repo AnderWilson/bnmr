@@ -13,5 +13,4 @@ Install with:
 
 ``
 devtools::install_github("AnderWilson/bnmr")
-?bnmr
 ``
