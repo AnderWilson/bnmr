@@ -125,22 +125,22 @@ double rtnormc(double a, double b) {
   
   double x=0;
   
-  if(!std::isfinite(a) & !std::isfinite(b)){
+  if(!std::isfinite(a) && !std::isfinite(b)){
     // Not truncated
     x=R::rnorm(0,1);
-  }else if(std::isfinite(a) & !std::isfinite(b)){
+  }else if(std::isfinite(a) && !std::isfinite(b)){
     // CASE 1
     x= rtnorm1(a);
-  }else if(std::isfinite(a) & std::isfinite(b) & a < 0 & b > 0){
+  }else if(std::isfinite(a) && std::isfinite(b) && a < 0 && b > 0){
     // CASE 2
     x=rtnorm2(a,b);
-  }else if(std::isfinite(a) & std::isfinite(b) & a >= 0){
+  }else if(std::isfinite(a) && std::isfinite(b) && a >= 0){
     // CASE 3
     x=rtnorm3(a,b);
-  }else if(!std::isfinite(a) & std::isfinite(b)){
+  }else if(!std::isfinite(a) && std::isfinite(b)){
     // CASE 4
     x=-rtnorm1(-b);
-  }else if(std::isfinite(a) & std::isfinite(b) & a < 0){
+  }else if(std::isfinite(a) && std::isfinite(b) && a < 0){
     // CASE 5
     x=-rtnorm3(-b,-a);
   }
