@@ -2,7 +2,7 @@
 
 This is the code R to implement the method described in:
 
-Bayesian nonparametric monotone regression by Wilson, Tryner, L’Orange and Volckens, *Environmetrics* 2020
+Wilson, A., Tryner, J., L'Orange, C., & Volckens, J. (2020). Bayesian nonparametric monotone regression. _Environmetrics_, 31(8), e2642.
 
 [arXiv](https://arxiv.org/abs/2006.00326)
 
@@ -11,6 +11,6 @@ Bayesian nonparametric monotone regression by Wilson, Tryner, L’Orange and Vol
 
 Install with:
 
-``
-devtools::install_github("AnderWilson/bnmr")
-``
+```
+remotes::install_github("AnderWilson/bnmr")
+```
