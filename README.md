@@ -21,5 +21,11 @@ You can install the development version of bnmr from [GitHub](https://github.com
 devtools::install_github("AnderWilson/bnmr")
 ```
 
+For an example see the ```bnmr``` documentation using 
+
+``` r
+library(bnmr)
+?bnmr
+```
 
 
