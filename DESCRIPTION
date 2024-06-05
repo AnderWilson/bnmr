@@ -9,5 +9,6 @@ Description: Bayesian nonparametric monotone regression.
 License: GPL (>= 2)
 Imports: Rcpp (>= 0.12.17)
 LinkingTo: Rcpp, RcppArmadillo
+SystemRequirements: C++11
 RoxygenNote: 7.0.2
 Encoding: UTF-8
