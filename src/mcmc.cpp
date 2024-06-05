@@ -54,7 +54,7 @@ double rtnorm2(double a, double b) {
     // normal rejection sampling
     while(x==0){
       y = R::rnorm(0,1);
-      if(y>a & y<b){
+      if((y>a) & (y<b)){
         x=y;
       }
     }
@@ -82,7 +82,7 @@ double rtnorm3(double a, double b) {
       // half-normal rejection sampling
       while(x==0){
         y = fabs(R::rnorm(0,1));
-        if(y>a & y<b){
+        if((y>a) & (y<b)){
           x=y;
         }
       }
