@@ -12,6 +12,8 @@
 #' @importFrom stats rbeta var runif rgamma qnorm dnorm rnorm pnorm quantile
 #' @importFrom utils txtProgressBar setTxtProgressBar
 #'
+#' @example inst/examples/bnmr_example.R
+#' 
 #' @export
 
 
